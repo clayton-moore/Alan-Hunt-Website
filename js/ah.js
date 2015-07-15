@@ -1,3 +1,4 @@
 $(document).ready(function(){
-    alert("Loaded");
+    $menuItem = $("uk-navbar-nav").find("li");
+    $menuItem.removeClass();
 });
