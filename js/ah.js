@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $menuItem = $(".uk-navbar-nav").find("li");
-    $menuItem.removeClass();
+    $($menuItem).click(function(){
+        $(this).removeClass();
+    });
     console.log("loaded!")
 });
