@@ -1,7 +1,8 @@
 $(document).ready(function(){
     $menuItem = $(".uk-navbar-nav").find("li");
     $($menuItem).click(function(){
-        $(this).removeClass();
+        $($menuItem).removeClass();
+        $(this).addClass("uk-active");
     });
     console.log("loaded!")
 });
